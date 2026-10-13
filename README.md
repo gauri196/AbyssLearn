@@ -1,258 +1,370 @@
-# \# AbyssLearn — Deep Ocean Learning \& Exploration Platform
+\# 🌊 AbyssLearn
 
-# 
+\### Dive deeper. Discover more. Learn the unknown.
 
-# AbyssLearn is a full-stack educational web application for exploring ocean depth zones, discovering deep-sea creatures, taking marine science quizzes, and tracking learning progress.
 
-# 
 
-# Built using React, Vite, Kotlin, Spring Boot, MySQL, Firebase Admin SDK, and a Python-based OceanEmbed research service.
+\*\*AbyssLearn\*\* is an interactive ocean-learning platform that brings the mysteries of the deep sea to life. Explore ocean zones, discover extraordinary marine creatures, challenge yourself with quizzes, and track your learning journey.
 
-# 
 
-# \## Features
 
-# 
+The project also features \*\*OceanEmbed\*\*, a research prototype for ocean-temperature estimation using a machine-learning model and reanalysis-derived data.
 
-# \- \*\*Ocean Zones Explorer:\*\* Explore the Epipelagic, Mesopelagic, Bathypelagic, Abyssopelagic, and Hadal zones.
 
-# \- \*\*Deep-Sea Creature Database:\*\* Discover marine species, habitats, depths, and adaptations.
 
-# \- \*\*Interactive Quizzes:\*\* Test marine science knowledge with scoring and feedback.
+<p align="center">
 
-# \- \*\*User Authentication:\*\* Register and log in using JWT-based authentication.
+&#x20; <a href="https://github.com/gauri196/AbyssLearn">
 
-# \- \*\*Learning Dashboard:\*\* Track quiz attempts, scores, and learning progress.
+&#x20;   <img src="https://img.shields.io/badge/Project-AbyssLearn-00C2D1?style=for-the-badge\&logo=github\&logoColor=white" alt="AbyssLearn project"/>
 
-# \- \*\*OceanEmbed Research Workspace:\*\* Explore ocean-temperature prediction workflows using location, date, and depth inputs.
+&#x20; </a>
 
-# \- \*\*Prediction History:\*\* Save and retrieve OceanEmbed prediction records for the authenticated user.
+&#x20; <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black" alt="React"/>
 
-# \- \*\*Responsive Interface:\*\* Dark ocean-inspired design with bioluminescent accents.
+&#x20; <img src="https://img.shields.io/badge/Backend-Spring\_Boot-6DB33F?style=for-the-badge\&logo=springboot\&logoColor=white" alt="Spring Boot"/>
 
-# 
+&#x20; <img src="https://img.shields.io/badge/ML-Scikit--learn-F7931E?style=for-the-badge\&logo=scikitlearn\&logoColor=white" alt="Scikit-learn"/>
 
-# \## Technology Stack
+</p>
 
-# 
 
-# | Component | Technologies |
 
-# |---|---|
+\---
 
-# | Frontend | React 18, Vite, JavaScript, CSS |
 
-# | Main backend | Kotlin, Spring Boot 3, Spring Data JPA |
 
-# | Database | MySQL |
+\## ✦ Explore the Abyss
 
-# | Authentication | JWT |
 
-# | Prediction history | Firebase Admin SDK, Cloud Firestore |
 
-# | Research service | Python, FastAPI, scikit-learn |
+| Feature | What it offers |
 
-# | Ocean data | CSV and NetCDF datasets |
+|---|---|
 
-# 
+| 🌊 \*\*Ocean Zones\*\* | Explore five major ocean depth zones, from sunlit surface waters to the Hadal zone. |
 
-# \## Project Structure
+| 🦑 \*\*Marine Life\*\* | Discover deep-sea creatures, their habitats, adaptations, and depth ranges. |
 
-# 
+| 🧠 \*\*Knowledge Quizzes\*\* | Test your ocean knowledge with interactive quizzes and instant feedback. |
 
-# ```text
+| 📊 \*\*Learning Dashboard\*\* | Review quiz scores, attempts, and learning progress. |
 
-# abysslearn/
+| 🔐 \*\*Authentication\*\* | Register and log in with JWT-based authentication. |
 
-# ├── backend/             # Kotlin + Spring Boot API
+| 🌡️ \*\*OceanEmbed\*\* | Explore a machine-learning workflow for estimating ocean temperatures at selected locations and depths. |
 
-# ├── frontend/            # React + Vite application
+| 📁 \*\*Prediction History\*\* | Save and retrieve prediction records associated with the authenticated user. |
 
-# ├── oceanembed-service/  # Python prediction service
 
-# ├── README.md
 
-# ├── UPGRADE\_NOTES.md
+\---
 
-# ├── .gitignore
 
-# └── start-dev.bat
 
-# ```
+\## 🪼 Built With
 
-# 
 
-# \## Prerequisites
 
-# 
+<p>
 
-# Install the following before running the application:
+&#x20; <img src="https://img.shields.io/badge/React-20232A?style=flat-square\&logo=react\&logoColor=61DAFB" alt="React"/>
 
-# 
+&#x20; <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square\&logo=vite\&logoColor=white" alt="Vite"/>
 
-# \- Git
+&#x20; <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black" alt="JavaScript"/>
 
-# \- Node.js and npm
+&#x20; <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square\&logo=css3\&logoColor=white" alt="CSS"/>
 
-# \- Java/JDK compatible with the Gradle project
+&#x20; <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square\&logo=kotlin\&logoColor=white" alt="Kotlin"/>
 
-# \- Python compatible with the OceanEmbed service
+&#x20; <img src="https://img.shields.io/badge/Spring\_Boot-6DB33F?style=flat-square\&logo=springboot\&logoColor=white" alt="Spring Boot"/>
 
-# \- MySQL Server
+&#x20; <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white" alt="MySQL"/>
 
-# 
+&#x20; <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square\&logo=firebase\&logoColor=black" alt="Firebase"/>
 
-# Firebase credentials are required for features that use Cloud Firestore.
+&#x20; <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white" alt="Python"/>
 
-# 
+&#x20; <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white" alt="FastAPI"/>
 
-# \## Setup
+&#x20; <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white" alt="scikit-learn"/>
 
-# 
+</p>
 
-# \### 1. Configure the main backend
 
-# 
 
-# Create the MySQL database:
+\---
 
-# 
 
-# ```sql
 
-# CREATE DATABASE abysslearn\_db;
+\## 🗺️ Architecture
 
-# ```
 
-# 
 
-# In PowerShell, set your local environment variables:
+```text
 
-# 
+&#x20;                   ABYSSLEARN
 
-# ```powershell
+&#x20;                        |
 
-# $env:DB\_USERNAME = "root"
+&#x20;            +-----------+-----------+
 
-# $env:DB\_PASSWORD = "your\_mysql\_password"
+&#x20;            |                       |
 
-# $env:ABYSSLEARN\_JWT\_SECRET = "replace-with-a-random-secret-at-least-32-bytes-long"
+&#x20;       React + Vite             User Interface
 
-# ```
+&#x20;            |
 
-# 
+&#x20;      +-----+----------------+
 
-# Use your actual local MySQL credentials. Generate a strong JWT secret and never commit real passwords or production secrets.
+&#x20;      |                      |
 
-# 
+&#x20; Spring Boot API        OceanEmbed API
 
-# Configure Firebase Admin credentials using the backend's supported credential path or `FIREBASE\_CREDENTIALS\_PATH`. Never upload the service-account JSON file to GitHub.
+&#x20; Kotlin / REST          Python / FastAPI
 
-# 
+&#x20;      |                      |
 
-# Start the backend:
+&#x20; +----+------+          Random Forest
 
-# 
+&#x20; |           |          Temperature Model
 
-# ```powershell
+&#x20;MySQL     Firebase
 
-# cd backend
+&#x20;          Firestore
 
-# .\\gradlew.bat bootRun
+```
 
-# ```
 
-# 
 
-# The backend is configured to run at `http://localhost:8085`.
+\*\*How it works\*\*
 
-# 
+\- The React frontend communicates with the Spring Boot backend for the core learning experience.
 
-# \### 2. Start the frontend
+\- Spring Boot manages application logic, authentication, and learning data.
 
-# 
+\- Firebase Admin SDK supports prediction-history storage in Cloud Firestore.
 
-# Open a second terminal at the project root:
+\- The Python service handles OceanEmbed prediction requests using the configured model and available inputs.
 
-# 
 
-# ```powershell
 
-# cd frontend
+\---
 
-# npm install
 
-# npm run dev
 
-# ```
+\## 🚀 Getting Started
 
-# 
 
-# Open the local URL printed by Vite, usually `http://localhost:5173`.
 
-# 
+\### Prerequisites
 
-# \### 3. Start the OceanEmbed service
 
-# 
 
-# Open another terminal at the project root:
+Install the following:
 
-# 
 
-# ```powershell
 
-# cd oceanembed-service
+\- \[Node.js and npm](https://nodejs.org/)
 
-# ```
+\- \[Java / JDK](https://adoptium.net/)
 
-# 
+\- \[Python](https://www.python.org/)
 
-# Create and activate a Python virtual environment if you have not already done so, then install the dependencies listed in the service's dependency file.
+\- \[MySQL](https://dev.mysql.com/downloads/)
 
-# 
+\- Git
 
-# Start the FastAPI application using the launch instructions in `oceanembed-service/README.md`. The local service is configured for port `8090`.
 
-# 
 
-# \## OceanEmbed: Research Scope and Limitations
+\### 1. Clone the repository
 
-# 
 
-# OceanEmbed is a research prototype for ocean-temperature estimation using a trained Random Forest model and available reanalysis-derived data.
 
-# 
+```bash
 
-# \- The current model has a limited training-depth range.
+git clone https://github.com/gauri196/AbyssLearn.git
 
-# \- Predictions should not be treated as validated real-time satellite measurements.
+cd AbyssLearn
 
-# \- Independent evaluation and broader geographic, temporal, and depth validation are needed before scientific or operational use.
+```
 
-# \- The trained model file is excluded from this Git repository because of its size. It must be supplied separately to run model-based predictions.
 
-# 
 
-# \## Security
+\### 2. Configure the database
 
-# 
 
-# \- Keep Firebase service-account credentials, passwords, API keys, and JWT secrets out of version control.
 
-# \- Keep Firestore security rules restrictive and access Firestore through the authenticated backend.
+Create the MySQL database:
 
-# \- Configure production secrets and allowed origins separately before deployment.
 
-# \- Never use development-only secrets in production.
 
-# 
+```sql
 
-# \## Academic Context
+CREATE DATABASE abysslearn\_db;
 
-# 
+```
 
-# Developed as a Web and Mobile Application Development (W-MAD) project, with an additional ocean-temperature research component.
+
+
+Set your local backend environment variables in PowerShell:
+
+
+
+```powershell
+
+$env:DB\_USERNAME = "root"
+
+$env:DB\_PASSWORD = "your\_mysql\_password"
+
+$env:ABYSSLEARN\_JWT\_SECRET = "your-random-secret-at-least-32-bytes-long"
+
+```
+
+
+
+Use your own local credentials and a strong, randomly generated JWT secret. Never commit real secrets.
+
+
+
+Configure Firebase Admin credentials using the backend's supported credential configuration. The service-account JSON file is intentionally excluded from version control.
+
+
+
+\### 3. Start the backend
+
+
+
+Open a terminal in the project root:
+
+
+
+```powershell
+
+cd backend
+
+.\\gradlew.bat bootRun
+
+```
+
+
+
+The backend runs at `http://localhost:8085` when using the configured defaults.
+
+
+
+\### 4. Start the frontend
+
+
+
+Open a second terminal:
+
+
+
+```powershell
+
+cd frontend
+
+npm install
+
+npm run dev
+
+```
+
+
+
+Open the local URL printed by Vite, typically `http://localhost:5173`.
+
+
+
+\### 5. Start OceanEmbed
+
+
+
+Open a third terminal:
+
+
+
+```powershell
+
+cd oceanembed-service
+
+```
+
+
+
+Create and activate a Python virtual environment, install the dependencies from `requirements.txt`, and follow the service-specific launch instructions in `oceanembed-service/README.md`.
+
+
+
+The service uses port `8090` in the current local configuration.
+
+
+
+> \*\*Model requirement:\*\* The trained model file is excluded from this repository because of its size. It must be obtained separately and placed at the configured model path before model-based predictions can run.
+
+
+
+\---
+
+
+
+\## 🌡️ OceanEmbed Research Notes
+
+
+
+OceanEmbed is a \*\*research prototype\*\*, not a validated operational ocean-forecasting system.
+
+
+
+\- The current Random Forest model is trained using reanalysis-derived data.
+
+\- Its training-depth range is limited; predictions outside that range require further validation.
+
+\- Predictions should not be interpreted as direct satellite measurements or guaranteed real-time ocean conditions.
+
+\- Broader temporal, geographic, and depth validation is necessary before scientific or operational use.
+
+
+
+\---
+
+
+
+\## 🔒 Security
+
+
+
+\- Credentials and environment-specific secrets must stay out of Git.
+
+\- Firestore access should remain restricted and flow through the authenticated backend.
+
+\- Production deployments require secure environment variables, appropriate CORS origins, and deployment-specific configuration.
+
+
+
+\---
+
+
+
+\## 🎯 Project Goal
+
+
+
+Bring together \*\*marine education, interactive learning, full-stack development, and exploratory machine learning\*\* in one ocean-inspired platform.
+
+
+
+\---
+
+
+
+<p align="center">
+
+&#x20; <strong>Made with curiosity for the world's least explored frontier — the deep ocean. 🌊</strong>
+
+</p>
 
 
 
