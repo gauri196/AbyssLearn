@@ -1,0 +1,105 @@
+.quiz-question-wrap {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.quiz-progress-bar {
+  height: 4px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 2px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.quiz-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--teal), var(--accent-cyan));
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+.quiz-q-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quiz-q-num {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.quiz-q-points {
+  font-size: 0.85rem;
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+.quiz-q-text {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin-bottom: 28px;
+  font-family: var(--font-heading);
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: rgba(6, 30, 63, 0.6);
+  border: 2px solid rgba(20, 184, 166, 0.15);
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+  border-color: var(--teal-light);
+  background: rgba(20, 184, 166, 0.08);
+  color: var(--text-primary);
+  transform: translateX(4px);
+}
+
+.quiz-option.selected {
+  border-color: var(--teal-light);
+  background: rgba(20, 184, 166, 0.15);
+  color: var(--text-primary);
+  box-shadow: 0 0 20px var(--teal-glow);
+}
+
+.option-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(20, 184, 166, 0.15);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--teal-light);
+  flex-shrink: 0;
+  transition: all 0.2s;
+}
+
+.quiz-option.selected .option-key {
+  background: var(--teal-light);
+  color: var(--navy-deep);
+}
+
+.option-text { line-height: 1.4; }

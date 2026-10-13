@@ -1,0 +1,35 @@
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.progress-stat-card {
+  padding: 28px 20px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.stat-emoji {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.stat-number {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.stat-name {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.accent-teal .stat-number { color: var(--teal-light); }
+.accent-gold .stat-number { color: var(--accent-gold); }
+.accent-blue .stat-number { color: var(--ocean-bright); }
+.accent-cyan .stat-number { color: var(--accent-cyan); }

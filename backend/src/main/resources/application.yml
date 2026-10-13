@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/abysslearn_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+server:
+  port: ${SERVER_PORT:8085}
+
+app:
+  jwt:
+    # Supply a random secret of at least 32 bytes through ABYSSLEARN_JWT_SECRET.
+    secret: ${ABYSSLEARN_JWT_SECRET}
+    expiration: ${ABYSSLEARN_JWT_EXPIRATION:86400000}
+  cors:
+    allowed-origins: ${ABYSSLEARN_ALLOWED_ORIGINS:http://localhost:5173}
+
+logging:
+  level:
+    com.abysslearn: INFO
+    org.springframework.security: WARN

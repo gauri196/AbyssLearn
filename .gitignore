@@ -1,0 +1,79 @@
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Backend build output and local environment files
+backend/build/
+backend/.gradle/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+```gitignore
+# Firebase service account credentials
+backend/firebase-service-account.json
+firebase-service-account.json
+
+# Private keys
+*.pem
+```
+
+```gitignore
+# Firebase service account credentials
+backend/firebase-service-account.json
+firebase-service-account.json
+
+# Private keys
+*.pem
+
+# Python generated files
+__pycache__/
+*.pyc
+oceanembed-service/.venv/
+oceanembed-service/venv/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Backend build output
+backend/build/
+backend/.gradle/
+```
+
+```gitignore
+# Firebase credentials — never upload
+backend/firebase-service-account.json
+firebase-service-account.json
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.local
+
+# Python virtual environments and generated files
+oceanembed-service/.venv/
+oceanembed-service/venv/
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Backend generated files
+backend/build/
+backend/.gradle/
+
+# Logs and private keys
+*.log
+backend/boot-error.txt
+*.pem
+```
+# Large trained model (keep locally; store separately)
+oceanembed-service/models/ocean_temperature_rf.joblib
