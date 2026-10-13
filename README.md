@@ -153,6 +153,28 @@ The service uses port `8090` in the current local configuration.
 > **Model requirement:** The trained model file is excluded from this repository because of its size. It must be obtained separately and placed at the configured model path before model-based predictions can run.
 
 ---
+## 📸 Screenshots
+
+### 🏠 Home Page
+Explore the AbyssLearn landing page and its deep-ocean theme.
+
+![AbyssLearn Home Page](screenshots/home.png)
+
+### 🌊 Ocean Zones
+Discover ocean layers, depth ranges, and their characteristics.
+
+![Ocean Zones](screenshots/ocean-zones.png)
+
+### 🦑 Deep-Sea Creatures
+Browse marine creatures and filter them by ocean zone.
+
+![Deep-Sea Creatures](screenshots/creatures.png)
+
+### 🧪 OceanEmbed Lab
+Explore the experimental ocean-temperature estimation interface.
+
+![OceanEmbed Lab](screenshots/oceanembed.png)
+
 
 ## 🌡️ OceanEmbed Research Notes
 
